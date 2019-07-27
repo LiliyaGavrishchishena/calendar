@@ -1,0 +1,27 @@
+.navigation {
+  height: 100vh;
+  background-color: #43425d;
+}
+
+.link {
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px;
+}
+.linkNav {
+  display: block;
+  width: 100%;
+  text-decoration: none;
+  color: #fff;
+  padding: 15px 24px;
+  border-left: 0px;
+  transition-property: color, border-left;
+  transition-duration: 0.2s;
+  transition-timing-function: linear;
+}
+
+.active {
+  color: #fff;
+  border-left: 4px solid #9794e8;
+  background-color: #3c3b53;
+}
